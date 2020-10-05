@@ -5,6 +5,8 @@ import uuid
 import re
 from subprocess import Popen,PIPE
 
+os.system('pip install pyautogui')
+
 HOME = os.path.expanduser("~")
 CWD = os.getcwd()
 
